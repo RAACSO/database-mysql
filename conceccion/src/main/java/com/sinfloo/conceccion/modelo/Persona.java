@@ -15,6 +15,9 @@ public class Persona {
     private String name;
     private String telefono;
 
+    public Persona(){
+        
+    }
     public Persona(int id, String name, String telefono){
         super();
         this.id=id;
